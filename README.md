@@ -1,2 +1,2 @@
 # aec-code
-Code for AutoCAD, Revit, Dynamo, etc.
+Programming code for AutoCAD, Revit, Dynamo, etc.

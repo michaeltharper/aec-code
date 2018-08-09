@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ParTrack</title>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="res/style.css">
+  </head>
+
+  <body class="bgyellow">
+  
+    <div class="bgyellow">
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="test-obj" src="test.obj"></a-asset-item>
+        <a-asset-item id="test-mtl" src="test.mtl"></a-asset-item>
+      </a-assets>
+      <a-entity obj-model="obj: #test-obj; mtl: #test-mtl"></a-entity>
+      <a-entity position="1.75 0 35" rotation="0 28 0">
+        <a-camera near="0.1" user-height="0"></a-camera>
+      </a-entity>
+    </a-scene>
+    </div>
+
+  </body>
+
+</html>

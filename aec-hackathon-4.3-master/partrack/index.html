@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Partrack - integrated supplier to jobsite tracking</title>
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+    <script src="res/geo.js"></script>
+    <link rel="stylesheet" type="text/css" href="res/style.css">
+  </head>
+  <body>
+
+<div class="floleft">
+  <table border="0" width="290" cellpadding="6">
+    <tr><td class="header" colspan="2">ParTrack</td></tr>
+    <tr><td>Mfg:</td><td class="bord-bbb">NDA Labs</td></tr> 
+    <tr><td>Part Number:</td><td class="bord-bbb">KBT-9894r</td></tr>
+
+    <tr><td>ISO:</td><td class="bord-bbb">9000</td></tr>
+    <tr><td>Floor:</td><td class="bord-bbb">6</td></tr>
+    <tr><td>Arrival:</td><td class="bord-bbb">Oct 3, 2018</td></tr>
+    <tr><td>Status:</td><td class="stat-green bord-bbb">On schedule</td></tr>
+    <tr><td><button onclick="geoFindMe()">Show part location</button></td><td class="bord-bbb"><div id="out"></div></td></tr>
+  </table>
+
+</div>
+
+<iframe src="part.html"  width="60%" height="60%" class="floleft" border="0" class="bgyellow"></iframe>
+
+  </body>
+</html>
+

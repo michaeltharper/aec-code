@@ -1,0 +1,21 @@
+a { color: black;}
+
+body {background-color: white;}
+table { background-color: #ffe;
+		cellpadding: 2px;
+	font-family: sans-serif; 
+		}
+#out {font-size: 80%;}
+
+.bgwhite {background-color: white;}
+.bgyellow {background-color: #ffe;}
+.bord-bbb { border: 1px solid #bba; background-color: #ffe;}
+.floleft {float: left;}
+.header {font-size:200%;}
+.partinfo {float: left; width: 200px;}
+.stat-red { border: 1px solid #bba; background-color: #eaa;}
+.stat-green { border: 1px solid #bba; background-color: #cec;}
+.stat-yellow { border: 1px solid #bba; background-color: #ffc;}
+.tablebg {background-color: #eeeeee; padding: 6px; margin: 6px;}
+.wrap { box-shadow: 4px 5px 12px #ccc; }
+

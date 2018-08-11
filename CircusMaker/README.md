@@ -1,2 +1,2 @@
-# csv-setup
-Rewrite of Lynda Project Setup code, using CSV instead of Excel spreadsheets.
+# Circus maker
+Graph to derive traffic circus setbacks, with parameters for shape, number and vector of intersecting and origination roads.
